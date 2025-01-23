@@ -1,0 +1,33 @@
+{
+  "name": "erp_server",
+  "version": "1.0.0",
+  "description": "A structured ERP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DebnilZade/ERP_SERVER.git"
+  },
+  "keywords": [
+    "erp",
+    "inventory"
+  ],
+  "author": "Debnil Majumder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DebnilZade/ERP_SERVER/issues"
+  },
+  "homepage": "https://github.com/DebnilZade/ERP_SERVER#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.9"
+  }
+}
