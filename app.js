@@ -17,7 +17,7 @@ connectDB();
 app.use('/api/auth', require('./routes/authRoutes'));
 
 app.get('/', (req, res) => {
-    res.send('Basic structure of ERP s');
+    res.send('Basic structure of ERP');
 });
 
 // Start server
